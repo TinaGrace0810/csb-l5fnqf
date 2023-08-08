@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #ff6767;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 100px 0;
+  background-image: url("https://colibriwp.com/blog/wp-content/uploads/2019/06/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg");
 }
 
 h1,
@@ -114,12 +115,12 @@ p {
 }
 
 .about-section h1 {
-  font size: 64px;
+  font-size: 54px;
   line-height: 80px;
 }
 
 .about-section h2 {
-  font size: 18px;
+  font-size: 18px;
   line-height: 80px;
 }
 
@@ -128,7 +129,7 @@ p {
 }
 
 .btn-branding {
-  background: #6c63ff;
+  background: #ff6767;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -136,3 +137,53 @@ p {
   padding: 15px 30px;
 }
 
+.content-container h1 {
+  font-size: 44px;
+  line-height: 80px;
+}
+
+.content-container h2 {
+  font-size: 18px;
+  line-height: 80px;
+}
+
+.container {
+  margin: 30px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-links a {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  color: #ff6767;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.custom-font {
+  font-size: 44px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+small {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+p {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: #ff6767;
+  text-decoration: none;
+  font-weight: bold;
+}
